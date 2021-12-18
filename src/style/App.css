@@ -214,7 +214,7 @@ background-size: cover;
 }
 .top{
   margin-top: 2px;
-  min-height: calc(100vh 0px);
+  min-height: calc(100vh -100px);
 }
 
 button{
