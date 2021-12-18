@@ -6,6 +6,7 @@
 ---
 ## About the rat in Maze
 -   The about pages describe the history of rats in maze research done by Dr.Edmund at Clark Universities in the 1890s to find the rat behavior process in learning how to navigate or find another path in a closed environment.
+
 ![screenshot](/img/About.png)
 
 ---
