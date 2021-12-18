@@ -2,7 +2,7 @@ import React from 'react';
 import Home from "./Home";
 import About from "./About";
 import { Switch, Route} from 'react-router-dom';
-import RatMaze from "../RatComponents/RatMaze"
+import RatMaze from "./RatMaze"
 
 
 const Main = () => {

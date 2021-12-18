@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Grid, Paper, Box, Button} from "@material-ui/core";
-import Cell from "./Cell"
+import {Grid, Paper, Box} from "@material-ui/core";
+import Cell from "../RatComponents/Cell"
 import Rat from "../img/Rat.png";
 import Cheese from "../img/Cheese.png"
-import Path from "./Path";
+import Path from "../RatComponents/Path";
 
 
 class RatMaze extends React.Component {
@@ -93,13 +93,8 @@ class RatMaze extends React.Component {
             <div className="top">
             <center>
                     <b>Total Paths = {this.numPaths}</b>{" "}
-                    <Button className="top" onClick={() => this.props.history.go(0)}
-                    style={{
-                        margin:15, 
-                        color:"black", 
-                        backgroundColor:"#ffaa00", 
-                        padding:8, 
-                        }}>Go Back to Ratmaze</Button>
+                    <button className="top" onClick={() => this.props.history.go(0)}
+                    >Go Back to Ratmaze</button>
                 </center>
             </div>
             </div>
@@ -108,24 +103,21 @@ class RatMaze extends React.Component {
         );
     };
 
-      findPaths = () => {
-    const displayNumPaths = <this.getNumPaths></this.getNumPaths>;
-    ReactDOM.render(displayNumPaths, document.getElementById("root"));
-    let grids = document.getElementById("root");
-
-    for (let i = 0; i < this.paths.length; i++) {
-      const solution = (
-        <Path currentPath={this.paths[i]} maze={this.matrix}></Path>
-      );
-      const id = Math.random();
-      const d = document.createElement("span");
-      d.id = id;
-      const space = document.createElement("br");
-      grids.appendChild(d);
-      grids.appendChild(space);
-      ReactDOM.render(solution, document.getElementById(id));
-    }
-  };
+    findPath=()=>{
+        const displayNumPaths= <this.getNumPaths></this.getNumPaths>;
+        ReactDOM.render(displayNumPaths, document.getElementById("roo"));
+        let grids = document.getElementById("ro");
+        for (let i=0; i<this.paths.length; i++){
+            const solution=(<Path currentPath={this.paths[i]} maze={this.matrix}></Path>);
+            const id = Math.random();
+            const d = document.createElement("span");
+            d.id = id;
+            const gap = document.createElement("br");
+            grids.appendChild(d);
+            grids.appendChild(gap);
+            ReactDOM.render(solution, document.getElementById(id));
+        };
+    };
 
     reSet=(e)=>{
         this.setState({numPaths:this.findPath=""});
@@ -218,39 +210,18 @@ class RatMaze extends React.Component {
                 <div>
                 
     <center>
-        <Button onClick={this.handleClick} 
-            style={{
-                margin:15, 
-                color:"black", 
-                backgroundColor:"#ffaa00", 
-                padding:8, 
-                }}
-                >
+        <button onClick={this.handleClick}>
             <b>Generate new maze</b>
-        </Button>
-        <Button
-            onClick={this.findPath}
-            style={{
-                margin: 15,
-                color: "black",
-                background: "#ffaa00",
-                padding: 8,
-            }}
-              >
+        </button>
+        <button
+            onClick={this.findPath}>
                 <b> Find Paths </b>
-        </Button>
-        <Button
+        </button>
+        <button
         className="Button"
-            onClick={this.reSet}
-            style={{
-                margin: 15,
-                color: "black",
-                background: "#ffaa00",
-                padding: 10,
-            }}
-              >
+            onClick={this.reSet}>
                 <b> Reset </b>
-        </Button>
+        </button>
         <br></br>
     </center>
     </div>

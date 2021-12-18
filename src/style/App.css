@@ -217,7 +217,17 @@ background-size: cover;
   min-height: calc(100vh 0px);
 }
 
-Button:hover{
+button{
+  background-color:#ffaa00; 
+  margin:15px;
+  color:var(--black);
+  padding:15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+button:hover{
 background-color: var(--gr-4);
 }
 
