@@ -32,6 +32,7 @@
 ---
 #### Reset
 - By clicking reset button, the maze display empty .i.e [1] white color
+
 ![screenshot](/img/Reset.png)
 
 ---
