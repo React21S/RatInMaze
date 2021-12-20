@@ -93,8 +93,7 @@ class RatMaze extends React.Component {
             <div className="top">
             <center>
                     <b>Total Paths = {this.numPaths}</b>{" "}
-                    <button className="top" onClick={() => this.props.history.go(0)}
-                    >Go Back to Ratmaze</button>
+                    
                 </center>
             </div>
             </div>
