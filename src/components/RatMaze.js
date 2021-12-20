@@ -5,8 +5,6 @@ import Cell from "../RatComponents/Cell"
 import Rat from "../img/Rat.png";
 import Cheese from "../img/Cheese.png"
 import Path from "../RatComponents/Path";
-
-
 class RatMaze extends React.Component {
     matrix =[2];
     paths =[];
@@ -105,8 +103,8 @@ class RatMaze extends React.Component {
 
     findPath=()=>{
         const displayNumPaths= <this.getNumPaths></this.getNumPaths>;
-        ReactDOM.render(displayNumPaths, document.getElementById("roo"));
-        let grids = document.getElementById("ro");
+        ReactDOM.render(displayNumPaths, document.getElementById("root"));
+        let grids = document.getElementById("root");
         for (let i=0; i<this.paths.length; i++){
             const solution=(<Path currentPath={this.paths[i]} maze={this.matrix}></Path>);
             const id = Math.random();

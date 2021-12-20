@@ -6,7 +6,7 @@ import Cheese from "../img/Cheese.png"
 
 class Path extends React.Component {
     constructor(props){
-        super(props);
+        super();
     }
     pathIdx =0;
     foundPath=[];
