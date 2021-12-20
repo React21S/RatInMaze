@@ -8,9 +8,9 @@ import RatMaze from "./RatMaze"
 const Main = () => {
     return (
     <Switch>
-        <Route  path = "/"  exact component={Home}/>
-        <Route  path = "/about"  exact component={About}/>
-        <Route  path = "/:ratmaze" component={RatMaze}/>
+        <Route  exact path = "/"   component={Home}/>
+        <Route  exact  path= "/about" component={About}/>
+        <Route   exact  path= "/ratmaze" component={RatMaze}/>
     </Switch>    
        
     );
