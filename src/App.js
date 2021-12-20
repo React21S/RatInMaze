@@ -12,7 +12,6 @@ function App() {
      <HashRouter>
         <Header/>
         <Main/>
-       
         <Footer/>
       </HashRouter>
     </div>

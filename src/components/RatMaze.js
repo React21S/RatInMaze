@@ -105,8 +105,8 @@ class RatMaze extends React.Component {
 
     findPath=()=>{
         const displayNumPaths= <this.getNumPaths></this.getNumPaths>;
-        ReactDOM.render(displayNumPaths, document.getElementById("root"));
-        let grids = document.getElementById("root");
+        ReactDOM.render(displayNumPaths, document.getElementById("roo"));
+        let grids = document.getElementById("ro");
         for (let i=0; i<this.paths.length; i++){
             const solution=(<Path currentPath={this.paths[i]} maze={this.matrix}></Path>);
             const id = Math.random();
