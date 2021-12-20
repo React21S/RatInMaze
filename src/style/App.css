@@ -194,7 +194,9 @@ a{
   font-size: 1.5rem;
   background: var(--black);
 }
-
+.paths{
+  padding: 40px;
+}
 .ratInMaze p{
   margin: 10px;
 }

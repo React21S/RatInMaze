@@ -92,7 +92,7 @@ class RatMaze extends React.Component {
             <div style={{color:"black"}}>
             <div className="top">
             <center>
-                    <b>Total Paths = {this.numPaths}</b>{" "}
+                    <div className="paths">Total Paths = {this.numPaths}</div>{" "}
                     
                 </center>
             </div>
