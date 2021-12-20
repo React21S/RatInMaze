@@ -93,7 +93,8 @@ class RatMaze extends React.Component {
             <div className="top">
             <center>
                     <div className="paths">Total Paths = {this.numPaths}</div>{" "}
-                    
+                    <button className="top" onClick={() => this.props.history.go(0)}
+                    >Go Back to Ratmaze</button>
                 </center>
             </div>
             </div>
@@ -133,7 +134,8 @@ class RatMaze extends React.Component {
         this.matrix =[2];
         this.generateMatrix();
         this.calculatePaths();
-     return (<div className="ratInMaze">
+     return (
+     <div className="ratInMaze"> 
         <div>
         <center>
           <h1>Rat in a Maze</h1>
