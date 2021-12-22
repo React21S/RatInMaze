@@ -5,8 +5,6 @@ import Cell from "../RatComponents/Cell"
 import Rat from "../img/Rat.png";
 import Cheese from "../img/Cheese.png"
 import Path from "../RatComponents/Path";
-
-
 class RatMaze extends React.Component {
     matrix =[2];
     paths =[];
