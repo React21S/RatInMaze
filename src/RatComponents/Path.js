@@ -24,7 +24,7 @@ class Path extends React.Component {
 
         for (let k=0; k < this.props.currentPath.length; k++){
             let x = this.props.currentPath[k][0];
-            let y = this.props.currentPath[k][0];
+            let y = this.props.currentPath[k][1];
             this.foundPath[4 * x+y] = 1;
         }
     };
@@ -43,15 +43,10 @@ class Path extends React.Component {
         }
         return result;
     }
-    printOnConsole = () => {
-        for (let i = 0; i < 16; i++) {
-          console.log(i + " " + this.props.currentPath[i]);
-        }
-      };
+  
 
     render(){
         this.createFoundPath();
-        this.printOnConsole();
         return (<div className="ratInMaze">
           <span className="path">
             <br></br>
