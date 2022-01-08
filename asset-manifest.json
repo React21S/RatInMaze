@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RatInMaze/static/css/main.2929a535.chunk.css",
+    "main.js": "/RatInMaze/static/js/main.0f0ab88a.chunk.js",
+    "main.js.map": "/RatInMaze/static/js/main.0f0ab88a.chunk.js.map",
+    "runtime-main.js": "/RatInMaze/static/js/runtime-main.99822d33.js",
+    "runtime-main.js.map": "/RatInMaze/static/js/runtime-main.99822d33.js.map",
+    "static/js/2.3c4f0ad3.chunk.js": "/RatInMaze/static/js/2.3c4f0ad3.chunk.js",
+    "static/js/2.3c4f0ad3.chunk.js.map": "/RatInMaze/static/js/2.3c4f0ad3.chunk.js.map",
+    "index.html": "/RatInMaze/index.html",
+    "static/css/main.2929a535.chunk.css.map": "/RatInMaze/static/css/main.2929a535.chunk.css.map",
+    "static/js/2.3c4f0ad3.chunk.js.LICENSE.txt": "/RatInMaze/static/js/2.3c4f0ad3.chunk.js.LICENSE.txt",
+    "static/media/Cheese.78b87dc2.png": "/RatInMaze/static/media/Cheese.78b87dc2.png",
+    "static/media/Rat.d067acd2.png": "/RatInMaze/static/media/Rat.d067acd2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99822d33.js",
+    "static/js/2.3c4f0ad3.chunk.js",
+    "static/css/main.2929a535.chunk.css",
+    "static/js/main.0f0ab88a.chunk.js"
+  ]
+}
