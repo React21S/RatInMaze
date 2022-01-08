@@ -17,7 +17,7 @@ const Footer = ()=>{
                         <i className="fab fa-github fa-2x"></i>
                     </a>
                 </div>
-                <p>Femi Adesola &copy; 2021 </p>
+                <p>Femi Adesola &copy; {new Date().getFullYear()} </p>
                 </div>
         </footer>
     </div>

@@ -273,3 +273,50 @@ footer .icons i:hover{
   direction: column;
   row-gap: 20px;
 }
+
+
+/* Mobile responsiveness */
+
+@media  screen and (min-width: 320px) and (max-width: 568px){
+
+  html,body{
+    overflow-x: hidden;
+}
+
+.home img{
+  width: 300px;
+  height: 200px;
+}
+
+h1{
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.about h3{
+ font-size: 15px;
+}
+
+ul li {
+  
+  margin: 10px;
+  font-size: 12px;
+  
+}
+
+button{
+  margin:10px;
+  padding:7px;
+  font-size: 15px;
+}
+
+.ratInMaze h1{
+  padding: 20px;
+}
+}
+
+@media  screen and (min-width: 569px) and (max-width: 1024px){
+  html,body{
+    overflow-x: hidden;
+}
+}
