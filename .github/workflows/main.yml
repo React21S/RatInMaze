@@ -1,0 +1,22 @@
+name: RatInMaze
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install 🔧
+        run: npm install
+
+      - name: Run start
+        run: npm start
+
+      - name: Build
+        run: npm build
+        
+      - name: Test
+        run: npm test 

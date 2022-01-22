@@ -1,3 +1,5 @@
+[![RatInMaze](https://github.com/React21S/RatInMaze/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/RatInMaze/actions)
+
 # Rat in a Maze app
 -   This a rat in maze app constructed with React and data structure. In data structure aspect, array, recursion, push, pop, backtracking were used as dynamic program.
 
