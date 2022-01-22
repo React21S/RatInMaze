@@ -26,7 +26,7 @@
 
 ---
 #### Find paths
--   In this a find paths, when the find paths button is clicking, it displays the total of routes that rats can pass to reach the destination and generate the image of ways or paths.
+-   In the find paths, when the find paths button is clicking, it displays the total of routes that rats can pass to reach the destination and generate the image of ways or paths.
 ![screenshot](/img/FoundPath.png)
 
 ![screenshot](/img/Path.png)
