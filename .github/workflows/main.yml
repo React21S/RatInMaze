@@ -9,14 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - uses: actions/jekyll-build-pages@v1-beta
       - name: Install 🔧
         run: npm install
 
-      - name: Run start
-        run: npm start
-
       - name: Build
         run: npm build
-        
+
       - name: Test
         run: npm test 
